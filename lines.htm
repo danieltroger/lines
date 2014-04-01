@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var avst=44,tp=avst;
+for(i=0;i<100;i++)
+{
+var line=document.createElement("div");
+line.style.position="absolute";
+line.style.left="0px";
+line.style.top=tp+"px";
+line.style.width="100%";
+line.style.height="1px";
+line.style.background="black";
+document.body.appendChild(line);
+tp+=avst;
+}
+</script>
+</body>
+</html>
